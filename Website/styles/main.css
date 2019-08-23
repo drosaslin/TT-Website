@@ -1,3 +1,15 @@
+.title-red {
+    color: #f80405;
+    font-family: 'Patua One', cursive;
+}
+
+.body-text {
+    text-align: center;
+}
+
+/*********************************************************************************************
+*****************************************  NAVBAR  *******************************************
+**********************************************************************************************/
 .navbar-custom {
     background-color: black;
 }
@@ -15,4 +27,81 @@
 }
 .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(249, 4, 5, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+/*********************************************************************************************
+**************************************  LATEST NEWS  *****************************************
+**********************************************************************************************/
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+.container-description-academy {
+    background-color: #e3e3e3;
+    font-family: 'Hepta Slab', serif;
+}
+
+.course-header {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.button-learn-more {
+    color: rgba(249, 4, 5, 1);
+    border-color: rgba(249, 4, 5, 1);
+}
+
+.container-footer {
+    background-color: black;
+}
+
+.footer-logo {
+    width: 200px;
+}
+
+.footer-link {
+    text-align: center;
+}
+
+.footer-link a {
+    color: white;
+    font-size: 12px;
+}
+
+.footer-item {
+    text-align: center;
+}
+
+.footer-item * {
+    color: white;
+    display: inline-block;
+    margin: 0;
+}
+
+.footer-item.footer-icon {
+    text-align: end;
+}
+
+.footer-item p {
+    font-size: 12px;
+    text-align: center;
+}
+
+.footer-line {
+    font-size: 13px;
+}
+
+.footer-line p {
+    display: block;
+}
+
+.footer-line img {
+    width: 60px;
 }
