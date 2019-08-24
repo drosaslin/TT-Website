@@ -7,6 +7,7 @@
     text-align: center;
 }
 
+
 /*********************************************************************************************
 *****************************************  NAVBAR  *******************************************
 **********************************************************************************************/
@@ -22,11 +23,34 @@
     color: rgba(249, 4, 5, 1);
 }
 
+.nav-line {
+    height: 1px;
+    background-color: rgba(249, 4, 5, 1);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.nav-contact {
+    color: white;
+}
+
+.nav-contact p {
+    margin-bottom: 3px;
+}
+
 .custom-toggler.navbar-toggler {
     border-color: rgba(249, 4, 5, 1);
 }
 .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(249, 4, 5, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+
+/*********************************************************************************************
+***************************************  CAROUSEL  *******************************************
+**********************************************************************************************/
+.carousel {
+    max-height: 500px;
 }
 
 
@@ -41,8 +65,9 @@ hr {
 }
 
 
-
-
+/*********************************************************************************************
+****************************************  COURSES  *******************************************
+**********************************************************************************************/
 .container-description-academy {
     background-color: #e3e3e3;
     font-family: 'Hepta Slab', serif;
@@ -58,6 +83,10 @@ hr {
     border-color: rgba(249, 4, 5, 1);
 }
 
+
+/*********************************************************************************************
+****************************************  FOOTER  ********************************************
+**********************************************************************************************/
 .container-footer {
     background-color: black;
 }
@@ -104,4 +133,29 @@ hr {
 
 .footer-line img {
     width: 60px;
+}
+
+.container-line-qr {
+    text-align: end;
+}
+
+.container-line-id {
+    text-align: start;
+}
+
+.footer-line-qr {
+    text-align: center;
+}
+
+.footer-line-id {
+    text-align: center;
+    height: 100%;
+}
+
+.line-id {
+    margin-top: 50%;
+}
+
+.footer-social-media p {
+    font-size: 13px;
 }
