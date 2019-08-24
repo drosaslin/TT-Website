@@ -102,6 +102,7 @@ hr {
 .footer-link a {
     color: white;
     font-size: 12px;
+    white-space: nowrap;
 }
 
 .footer-item {
