@@ -89,9 +89,22 @@ hr {
     width: 80px;
 }
 
+.contact-line i {
+    font-size: 2.5rem;
+}
+
 .contact-media-header {
     font-family: 'Roboto', sans-serif;
     margin: 0;
+}
+
+.map-row {
+    height: 250px;
+}
+
+#googleMap {
+    width: 100%;
+    height: 100%;
 }
 
 .btn-danger {
