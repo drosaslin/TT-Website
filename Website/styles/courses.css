@@ -53,7 +53,7 @@
     color: rgba(249, 4, 5, 1);
 }
 
-.nav-link {
+.course-tab .nav-link {
     color: black;
 }
 
@@ -68,6 +68,11 @@
 .course-title {
     color: black;
     font-size: 16px;
+}
+
+.course-description {
+    font-family: 'Hepta Slab', serif;
+    font-size: 14px;
 }
 
 
