@@ -188,8 +188,21 @@
     </div>
 
     <div class="container">
-        <div class="fb-comments" data-href="https://drosaslin.github.io/TT-Website/Website/gallery.html" data-width=""
-            data-numposts="5"></div>
+        <div id="wpac-comment"></div>
+        <script type="text/javascript">
+            wpac_init = window.wpac_init || [];
+            wpac_init.push({ widget: 'Comment', id: 20758 });
+            (function () {
+                if ('WIDGETPACK_LOADED' in window) return;
+                WIDGETPACK_LOADED = true;
+                var mc = document.createElement('script');
+                mc.type = 'text/javascript';
+                mc.async = true;
+                mc.src = 'https://embed.widgetpack.com/widget.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(mc, s.nextSibling);
+            })();
+        </script>
+        <a href="https://widgetpack.com" class="wpac-cr">Comments System WIDGET PACK</a>
     </div>
 
 
@@ -294,9 +307,6 @@
         </div>
     </div>
 
-    <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous"
-        src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v4.0"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
