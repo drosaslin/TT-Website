@@ -5,11 +5,11 @@ filterImages(PHOTOS_DIV);
 
 function filterImages(type) {
     if (type == VIDEOS_DIV) {
-        $('.photos').hide();
-        $('.videos').show();
+        $('.photos').hide(1000);
+        $('.videos').show(1000);
     }
     else {
-        $('.photos').show();
-        $('.videos').hide();
+        $('.photos').show(1000);
+        $('.videos').hide(1000);
     }
 }
