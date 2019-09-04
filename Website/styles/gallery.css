@@ -60,6 +60,14 @@ hr {
     width: 100%;
 }
 
+.social-media {
+    text-align: center;
+}
+
+.social-media h3 {
+    text-align: center;
+}
+
 .hide {
     display: none; 
 }
