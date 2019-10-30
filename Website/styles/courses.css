@@ -72,17 +72,31 @@ hr {
 }
 
 .course-main-title {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .course-title {
-    color: black;
-    font-size: 16px;
+    color: #562526;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .course-description {
     font-family: 'Hepta Slab', serif;
     font-size: 14px;
+}
+
+.course-list-container {
+    width: 100%;
+}
+
+.list-container {
+    width: fit-content;
+    margin: auto;
+}
+
+.list-container p {
+    text-align: left;
 }
 
 
