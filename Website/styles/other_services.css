@@ -3,11 +3,19 @@
     font-family: 'Patua One', cursive;
 }
 
-hr {
-    width: 85%;
-    border: 0;
-    border-top: 1px solid #e3e3e3;
+.body-text {
+    text-align: center;
 }
+
+.container-intro p {
+    display: inline-block;
+}
+
+.container-service-text p {
+    font-size: 1.3rem;
+}
+
+.picture-use-text {}
 
 
 /*********************************************************************************************
@@ -51,48 +59,43 @@ hr {
 
 
 /*********************************************************************************************
-***********************************  TABLE TENNIS TEAM  **************************************
+***************************************  CAROUSEL  *******************************************
 **********************************************************************************************/
 
-.team-description * {
-    text-align: center;
-}
-
-.team-description p {
-    font-family: 'Roboto', sans-serif;
-}
-
-.card-body {
-    text-align: center;
-}
-
-.card-body h3 {
-    margin: 0;
-}
-
-.card-body h5 {
-    color: #f80405;
-}
-
-.card-text p {
-    display: inline;
-}
-
-.card-text-header {
-    text-align: right;
-}
-
-.card-text-body {
-    text-align: left;
+.carousel {
+    max-height: 500px;
 }
 
 
 /*********************************************************************************************
-***********************************  TABLE TENNIS TEAM  **************************************
+**************************************  LATEST NEWS  *****************************************
 **********************************************************************************************/
 
-.container-sport-phsycology {
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+/*********************************************************************************************
+****************************************  COURSES  *******************************************
+**********************************************************************************************/
+
+.container-description-academy {
     background-color: #e3e3e3;
+    font-family: 'Hepta Slab', serif;
+}
+
+.course-header {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.button-learn-more {
+    color: rgba(249, 4, 5, 1);
+    border-color: rgba(249, 4, 5, 1);
 }
 
 
