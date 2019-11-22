@@ -24,7 +24,7 @@
     <!-- **********************************************************************************************  -->
     <nav class="navbar navbar-custom navbar-expand-lg">
         <a class="navbar-brand" href="index.html">
-            <img src="images/TT Logo Mobile.jpg" alt="">
+            <img src="images/TT Logo Mobile sm.jpg" alt="">
         </a>
         <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -33,10 +33,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html">首頁</a>
+                    <a class="nav-link" href="index.html">首頁<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="courses.html">專業課程 <span class="sr-only">(current)</span></a>
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCourses" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">專業課程</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownCourses">
+                        <a class="dropdown-item" href="courses.html#individualTab">個人課程</a>
+                        <a class="nav-link dropdown-item dropdown-toggle" href="#" id="navbarDropdownGroup" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">團體課程</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownGroup">
+                            <a class="dropdown-item" href="courses.html#groupATab">團體A</a>
+                            <a class="dropdown-item" href="courses.html#groupBTab">團體B</a>
+                        </div>
+                        <a class="dropdown-item" href="courses.html#groupBTab">學齡前團體課程</a>
+                    </div>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="equipment.html">優質環境</a>
@@ -47,35 +56,35 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         師資介紹
-
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="our_team.html#tableTennisTeam">桌球教練團隊</a>
-                    <a class="dropdown-item" href="our_team.html#sportPhsycologyTeam">運動心理諮詢團隊</a>
-        </div>
-        </li>
-        <li class="nav-item nav-contact">
-            <a class="nav-link" href="contact_us.html">聯絡我們</a>
-        </li>
-        <li class="nav-item nav-contact d-lg-none">
-            <div class="nav-line"></div>
-        </li>
-        <li class="nav-item nav-contact d-lg-none">
-            <p>+886 987456321</p>
-        </li>
-        <li class="nav-item nav-contact d-lg-none">
-            <p>tabletennis@tabletennis.com</p>
-        </li>
-        <li class="nav-item nav-contact d-lg-none">
-            <p>Line ID: lineid123</p>
-        </li>
-        <li class="nav-item nav-contact d-lg-none">
-            <div>
-                <i class="fab fa-2x fa-facebook-square mr-1"></i>
-                <i class="fab fa-2x fa-instagram mr-1"></i>
-                <i class="fab fa-2x fa-youtube-square mr-1"></i>
-            </div>
-        </li>
-        </ul>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="our_team.html#tableTennisTeam">桌球教練團隊</a>
+                        <a class="dropdown-item" href="our_team.html#sportPhsycologyTeam">運動心理諮詢團隊</a>
+                    </div>
+                </li>
+                <li class="nav-item nav-contact">
+                    <a class="nav-link" href="contact_us.html">聯絡我們</a>
+                </li>
+                <li class="nav-item nav-contact d-lg-none">
+                    <div class="nav-line"></div>
+                </li>
+                <li class="nav-item nav-contact d-lg-none">
+                    <p>+886 987456321</p>
+                </li>
+                <li class="nav-item nav-contact d-lg-none">
+                    <p>tabletennis@tabletennis.com</p>
+                </li>
+                <li class="nav-item nav-contact d-lg-none">
+                    <p>Line ID: lineid123</p>
+                </li>
+                <li class="nav-item nav-contact d-lg-none">
+                    <div>
+                        <i class="fab fa-2x fa-facebook-square mr-1"></i>
+                        <i class="fab fa-2x fa-instagram mr-1"></i>
+                        <i class="fab fa-2x fa-youtube-square mr-1"></i>
+                    </div>
+                </li>
+            </ul>
         </div>
     </nav>
 
@@ -104,13 +113,10 @@
                             <a class="nav-link" id="groupDTab" data-toggle="tab" href="#groupD" role="tab" aria-controls="profile" aria-selected="false">團體初階課程(D)</a>
                         </li>
                         <li class="nav-item course-tab">
-                            <a class="nav-link" id="kidsTab" data-toggle="tab" href="#highSchool" role="tab" aria-controls="contact" aria-selected="false">兒童團體課程</a>
-                        </li>
-                        <li class="nav-item course-tab">
                             <a class="nav-link" id="highSchoolTab" data-toggle="tab" href="#highSchool" role="tab" aria-controls="contact" aria-selected="false">學齡前團體課程</a>
                         </li>
                         <li class="nav-item course-tab">
-                            <a class="nav-link" id="coachingTab" data-toggle="tab" href="#highSchool" role="tab" aria-controls="contact" aria-selected="false">教練外派課程</a>
+                            <a class="nav-link" id="kidsTab" data-toggle="tab" href="#kids" role="tab" aria-controls="contact" aria-selected="false">兒童團體課程</a>
                         </li>
                     </ul>
                     <div class="tab-content" id="myTabContent">
@@ -119,15 +125,20 @@
                                 <div class="course-main-title title-red mt-1">個人課程</div>
                                 <div class="title-red course-title mb-1 mt-4">課程內容</div>
                                 <p class="course-description">
-                                    依照學員的年齡和技能程度，教練先施實動作技術診斷及規畫課程目標，訓練過程給予即時的動作回饋與事後動作分析技術找出問題並給予建議。將動作(世界級好手或台灣好手)與學員的前、後動作分析做比較，強化正確動作觀念，避免錯誤動作造成運動傷害，學習者能快速修正動作 ，更有效率的提升運動表現。強化各項技術、步伐及技戰術的結合訓練，模擬比賽情境。課程資料建檔上傳，學員可以隨時隨地的複習動作，可作為下次修改動作的依據，提升學習效果。
+                                    個人課程依照學員的年齡和技能程度，教練先施實動作技術診斷及客製化課程，訓練過程給予即時的動作回饋與事後動作分析技術找出動作關鍵問題並給予練習建議。將動作(世界級好手或台灣好手)與學員的前、後動作分析做比較，強化正確動作觀念，避免錯誤動作造成運動傷害，學習者能快速修正動作 ，更有效率的提升運動表現。強化各項技術、步伐及技戰術的結合訓練，模擬比賽情境。課程資料建檔上傳，學員可以隨時隨地的複習動作，可作為下次修改動作的依據，提升學習效果。
+                                </p>
+
+                                <div class="title-red course-title mb-1 mt-5">適合年齡</div>
+                                <p class="course-description">
+                                    7歲以上
                                 </p>
 
                                 <div class="course-list-container">
                                     <div class="list-container">
                                         <div class="title-red course-title mb-1 mt-5">收費標準</div>
-                                        <p class="course-description"><strong>1. 甲組教練 ：</strong>一對一教學 單次課程 $1080/1hr (1堂)。一期課程 $10200/10hr (10堂)。</p>
-                                        <p class="course-description"><strong>2. 青少年國手教練：</strong>一對一教學 單次課程 $1200/1hr (1堂)。一期課程 $11300/10hr (10堂)。</p>
-                                        <p class="course-description"><strong>3. 成年國手教練：</strong>一對一教學 單次課程 $1300/1hr (1堂)。一期課程 $12000/10hr (10堂)。</p>
+                                        <p class="course-description"><strong>1. 甲組教練 ：</strong>一對一教學 單次課程 $1090/1hr (1堂)。一期課程 $10200/10hr (10堂)。</p>
+                                        <p class="course-description"><strong>2. 青少年國手教練：</strong>一對一教學 單次課程 $1290/1hr (1堂)。一期課程 $11500/10hr (10堂)。</p>
+                                        <p class="course-description"><strong>3. 成年國手教練：</strong>一對一教學 單次課程 $1390/1hr (1堂)。一期課程 $12900/10hr (10堂)。</p>
                                     </div>
                                 </div>
 
@@ -149,7 +160,12 @@
                                 <div class="course-main-title title-red mt-1">團體高階課程(A)</div>
                                 <div class="title-red course-title mb-1 mt-4">課程內容</div>
                                 <p class="course-description">
-                                    教練依照學員的技術診斷或台灣桌球積分賽、桌球愛好者聯盟作為參考依據，了解學員的需求，並規畫適當的課程。課程內容包含各單項技術的強化及戰術的結合訓練，透過即時動作影像回饋，再配合動作分析，更有效率的修正動作及後續建檔追蹤有助於學習效果，享受學習的樂趣，提升運動表現。
+                                    團體課程教練依照學員的技術診斷或台灣桌球積分賽、桌球愛好者聯盟作為參考依據，針對學員的需求，並規畫適當的課程，想要健身運動或是提升技術水準，都可以找到適合您的課程。課程內容包含各單項技術的強化及戰術的結合訓練，透過即時動作影像回饋和動作分析，更有效率的修正動作、 ，課程資料將建檔上傳，追蹤學習狀況，有助於學習效果，享受學習的樂趣，提升運動表現。
+                                </p>
+
+                                <div class="title-red course-title mb-1 mt-5">適合年齡</div>
+                                <p class="course-description">
+                                    7歲以上
                                 </p>
 
                                 <div class="title-red course-title mb-1 mt-5">教練程度</div>
@@ -172,9 +188,7 @@
                                 <div class="title-red course-title mb-1 mt-5">收費標準</div>
                                 <div class="course-list-container">
                                     <div class="list-container">
-                                        <p class="course-description">1. 教練一對二教學 單次課程 $ 780元/1hr(1堂)。一期課程 $ 7000/10hr (10堂)。
-                                        </p>
-                                        <p class="course-description">2. 教練一對三教學 單次課程 $ 840元/1.5hr (1堂)。一期課程 $7500/15hr(10堂)。
+                                        <p class="course-description">1. 教練一對三教學 單次課程 $ 815元/1.5hr (1堂)。一期課程 $7650/15hr(10堂)。
                                         </p>
                                     </div>
                                 </div>
@@ -195,7 +209,8 @@
                                         <p class="course-description">1. 選擇課程若學員若無任何積分賽分數，則由教練實施技術評估及安排規劃。</p>
                                         <p class="course-description">2. 學員可以選擇教練分級或依照教練實施技術評估及安排規劃。</p>
                                         <p class="course-description">3. 若課程只有1人，則改成1對1個人教學，課程時間為1hr，費用比照1對1。</p>
-                                        <p class="course-description">4. 報名時若只有2位學員可選擇雙打或單打。</p>
+                                        <p class="course-description">4. 若課程只有2人，則改成1對2團班教學，課程時間為1hr，費用不變。</p>
+                                        <p class="course-description">5. 此課程含動作分析3次，若不含動作分析，一期課程扣450元。</p>
                                     </div>
                                 </div>
 
@@ -207,7 +222,12 @@
                                 <div class="course-main-title title-red mt-1">團體高中階課程(B)</div>
                                 <div class="title-red course-title mb-1 mt-4">課程說明</div>
                                 <p class="course-description">
-                                    教練依照學員的技術診斷或台灣桌球積分賽、桌球愛好者聯盟作為參考依據，了解學員的需求，並規畫適當的課程。課程內容包含各單項技術的強化及戰術的結合訓練，透過即時動作影像回饋，再配合動作分析，更有效率的修正動作及後續建檔追蹤有助於學習效果，享受學習的樂趣，提升運動表現。
+                                    團體課程教練依照學員的技術診斷或台灣桌球積分賽、桌球愛好者聯盟作為參考依據，針對學員的需求，並規畫適當的課程，想要健身運動或是提升技術水準，都可以找到適合您的課程。課程內容包含各單項技術的強化及戰術的結合訓練，透過即時動作影像回饋和動作分析，更有效率的修正動作、 ，課程資料將建檔上傳，追蹤學習狀況，有助於學習效果，享受學習的樂趣，提升運動表現。
+                                </p>
+
+                                <div class="title-red course-title mb-1 mt-5">適合年齡</div>
+                                <p class="course-description">
+                                    7歲以上歲
                                 </p>
 
                                 <div class="title-red course-title mb-1 mt-5">教練程度</div>
@@ -230,8 +250,7 @@
                                 <div class="title-red course-title mb-1 mt-5">收費標準</div>
                                 <div class="course-list-container">
                                     <div class="list-container">
-                                        <p class="course-description">1. 單次課程 $ 680元/1.5hr(1堂)。一期課 $ 6000/15hr (10堂)。
-                                        </p>
+                                        <p class="course-description">1. 單次課程 $ 695元/1.5hr(1堂)。一期課 $ 6450/15hr (10堂) 。</p>
                                     </div>
                                 </div>
 
@@ -252,8 +271,8 @@
                                         <p class="course-description">1. 選擇課程若學員若無任何積分賽分數，則由教練實施技術評估及安排規劃。</p>
                                         <p class="course-description">2. 學員可以選擇教練分級或依照教練實施技術評估及安排規劃。</p>
                                         <p class="course-description">3. 若課程只有1人，則改成1對1個人教學，課程時間為1hr，費用比照1對1。</p>
-                                        <p class="course-description">4. 則改成1對2團班教學，課程時間為1hr，費用不變。</p>
-                                        <p class="course-description">5. 報名時若只有2位學員可選擇雙打或單打。</p>
+                                        <p class="course-description">4. 若課程只有2人，則改成1對2團班教學，課程時間為1hr，費用不變。</p>
+                                        <p class="course-description">5. 此課程含動作分析3次，若不含動作分析，一期課程扣450元。</p>
                                     </div>
                                 </div>
 
@@ -265,7 +284,12 @@
                                 <div class="course-main-title title-red mt-1">團體中階課程(C)</div>
                                 <div class="title-red course-title mb-1 mt-4">課程說明</div>
                                 <p class="course-description">
-                                    教練依照學員的技術診斷或台灣桌球積分賽、桌球愛好者聯盟作為參考依據，了解學員的需求，並規畫適當的課程。課程內容包含各單項技術的強化及戰術的結合訓練，透過即時動作影像回饋，再配合動作分析，更有效率的修正動作及後續建檔追蹤有助於學習效果，享受學習的樂趣，提升運動表現。
+                                    團體課程教練依照學員的技術診斷或台灣桌球積分賽、桌球愛好者聯盟作為參考依據，針對學員的需求，並規畫適當的課程，想要健身運動或是提升技術水準，都可以找到適合您的課程。課程內容包含各單項技術的強化及戰術的結合訓練，透過即時動作影像回饋和動作分析，更有效率的修正動作、 ，課程資料將建檔上傳，追蹤學習狀況，有助於學習效果，享受學習的樂趣，提升運動表現。
+                                </p>
+
+                                <div class="title-red course-title mb-1 mt-5">適合年齡</div>
+                                <p class="course-description">
+                                    7歲以上歲
                                 </p>
 
                                 <div class="title-red course-title mb-1 mt-5">教練程度</div>
@@ -287,7 +311,7 @@
                                 </div>
 
                                 <div class="title-red course-title mb-1 mt-5">收費標準</div>
-                                <p class="course-description">單次課程 $ 550元/1.5hr(1堂)。一期課程$ 4800/15hr (10堂) 。</p>
+                                <p class="course-description">單次課程 $ 595元/1.5hr(1堂)。一期課程$ 5450/15hr (10堂) 。</p>
 
                                 <div class="title-red course-title mb-1 mt-5">課程特色</div>
                                 <p class="course-description">1. 提升桌球技術、步伐及技戰術組合運用</p>
@@ -301,9 +325,9 @@
                                     <div class="list-container">
                                         <p class="course-description">1. 選擇課程若學員若無任何積分賽分數，則由教練實施技術評估及安排規劃。</p>
                                         <p class="course-description">2. 學員可以選擇教練分級或依照教練實施技術評估及安排規劃。</p>
-                                        <p class="course-description">3. 若課程只有1人，則改成1對1個人教學，課程時間為1hr，費用比照1對1。</p>
-                                        <p class="course-description">4. 則改成1對2團班教學，課程時間為1hr，費用不變。</p>
-                                        <p class="course-description">5. 報名時若只有2位學員可選擇雙打或單打。</p>
+                                        <p class="course-description">3. 若課程只有1人，則改成1對1個別教學(教練甲組)，課程時間為1hr，費用比照1對1。</p>
+                                        <p class="course-description">4. 若課程只有2人，則改成1對2團班教學，課程時間為1hr，費用比照1對2。</p>
+                                        <p class="course-description">5. 此課程含動作分析3次，若不含動作分析，一期課程扣450元。</p>
                                     </div>
                                 </div>
 
@@ -315,7 +339,12 @@
                                 <div class="course-main-title title-red mt-1">團體初階課程(D)</div>
                                 <div class="title-red course-title mb-1 mt-4">課程說明</div>
                                 <p class="course-description">
-                                    教練依照學員的技術診斷或台灣桌球積分賽、桌球愛好者聯盟作為參考依據，了解學員的需求，並規畫適當的課程。課程內容包含各單項技術的強化及戰術的結合訓練，透過即時動作影像回饋，再配合動作分析，更有效率的修正動作及後續建檔追蹤有助於學習效果，享受學習的樂趣，提升運動表現。
+                                    團體課程教練依照學員的技術診斷或台灣桌球積分賽、桌球愛好者聯盟作為參考依據，針對學員的需求，並規畫適當的課程，想要健身運動或是提升技術水準，都可以找到適合您的課程。課程內容包含各單項技術的強化及戰術的結合訓練，透過即時動作影像回饋和動作分析，更有效率的修正動作、 ，課程資料將建檔上傳，追蹤學習狀況，有助於學習效果，享受學習的樂趣，提升運動表現。
+                                </p>
+
+                                <div class="title-red course-title mb-1 mt-5">適合年齡</div>
+                                <p class="course-description">
+                                    7歲以上歲
                                 </p>
 
                                 <div class="title-red course-title mb-1 mt-5">教練程度</div>
@@ -339,7 +368,7 @@
                                 <div class="title-red course-title mb-1 mt-5">收費標準</div>
                                 <div class="course-list-container">
                                     <div class="list-container">
-                                        <p class="course-description">1. 單次課程 $ 550元/1.5hr(1堂)。一期課程 $ 4800/15hr (10堂) 。
+                                        <p class="course-description">1. 單次課程 $ 545元/1.5hr(1堂)。一期課程 $ 4950/15hr (10堂) 。
                                         </p>
                                     </div>
                                 </div>
@@ -362,7 +391,7 @@
                                         <p class="course-description">2. 學員可以選擇教練分級或依照教練實施技術評估及安排規劃。</p>
                                         <p class="course-description">3. 若課程只有1人，則改成1對1個別教學(教練為甲組)，課程時間為1hr，費用比照1對1。</p>
                                         <p class="course-description">4. 若課程只有2人，則改成1對2團班教學，課程時間為1hr，費用比照1對2。</p>
-                                        <p class="course-description">5. 報名時若只有2位學員可選擇雙打或單打。</p>
+                                        <p class="course-description">5. 此課程含動作分析3次，若不含動作分析，一期課程扣450元。</p>
                                     </div>
                                 </div>
 
@@ -374,18 +403,24 @@
                                 <div class="course-main-title title-red mt-1">學齡前團體課程</div>
                                 <div class="title-red course-title mb-1 mt-4">課程說明</div>
                                 <p class="course-description">
-                                    依照學員的技術程度，教練給予循序漸進的課程規劃，以趣味化的遊戲課程為主，各項基礎技術動作強化及組合訓練，搭配基本運動能力訓練來強化學員的身體及心智的發展，鼓勵彼此人際互動、表達能力，促使孩童全面性的發展。
+                                    學齡前團體課程4-7歲是大腦發展黃金階段，從事身體活動與心智感官的刺激，有助於腦部的潛能開發。本課程依照學員的技術程度，循序漸進的課程規劃，以趣味化、多元化的遊戲課程為主，導入桌球基礎動作練習，搭配基本運動能力及多元化的心智練習，鼓勵彼此人際互動，並納入認知功能、統合感覺、口語表達、情緒調節及建立自信的情境練習，快樂學習，有助於幼兒多元化的發展。
+                                </p>
+
+                                <div class="title-red course-title mb-1 mt-5">適合年齡</div>
+                                <p class="course-description">
+                                    4-6歲
                                 </p>
 
                                 <div class="title-red course-title mb-1 mt-5">上課人數</div>
-                                <p class="course-description m-1">平均上課帶2-4位學員</p>
+                                <p class="course-description m-1">3位即可開班，最多4位學員</p>
 
                                 <div class="title-red course-title mb-1 mt-5">收費標準</div>
                                 <div class="course-list-container">
                                     <div class="list-container">
-                                        <p class="course-description">1. 單次課程 $ 700元/1.5hr(1堂)。一期課程 $ 6500/15hr (12堂) 。
+                                        <p class="course-description">1. 體驗課程 單次課程 $ 800元/2hr(1堂)。一期課程 $ 6000/16hr (8堂) 。
                                         </p>
-                                        <p class="course-description">2. 若課程只有1人，則改成1對1個別教學，一期課程 $ 8000/10hr (10堂)。</p>
+                                        <p class="course-description">2. 進階課程 單次課程 $ 750元/2hr(1堂)。一期課程 $ 11400/32hr (16堂) 。
+                                        </p>
                                     </div>
                                 </div>
 
@@ -397,7 +432,71 @@
                                         <p class="course-description">3. 認知 (注意力、工作記憶、抑制控制)、統合感覺</p>
                                         <p class="course-description">4. 培養運動習慣、勇於展現肢體，並樂於參與人際互動、口語表達</p>
                                         <p class="course-description">5. 引導模仿及協調控制動作技能</p>
-                                        <p class="course-description">6. 適當增加身體活動量</p>
+                                        <p class="course-description">6. 適當增加身體活動量，增強骨骼肌發育</p>
+                                        <p class="course-description">7. 情緒調節、建立自信、問題解決</p>
+                                        <p class="course-description">8. 課堂學習紀錄，並將課堂資料建檔上傳，家長可隨時觀看學習狀況</p>
+                                    </div>
+                                </div>
+
+                                <div class="title-red course-title mb-1 mt-5">備註</div>
+                                <div class="course-list-container">
+                                    <div class="list-container">
+                                        <p class="course-description">1. 本館有提供20公分的墊高基座，方便幼兒墊高站上球檯練習。</p>
+                                    </div>
+                                </div>
+
+                                <p class="course description mt-5">有任何問題請與我們 <a class="btn btn-outline-danger btn-sm mb-1" href="contact_us.html" role="button">聯絡</a></p>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="kids" role="tabpanel" aria-labelledby="contact-tab">
+                            <div class="container-course border py-2 px-4">
+                                <div class="course-main-title title-red mt-1">兒童團體課程</div>
+                                <div class="title-red course-title mb-1 mt-4">課程說明</div>
+                                <p class="course-description">
+                                    學齡前團體課程4-兒童團體課程在小學階段從事身體活動與心智的刺激練習有助於學習發展。本課程依照學員的程度，教練給予循序漸進、由淺入深的課程規畫，各項基礎技術動作強化及組合練習，以有趣遊戲為主搭配基本運動能力訓練來刺激學員的身體及心智的發展，鼓勵彼此人際互動、課程納入認知功能、統合感覺、情緒調節、建立自信、口語表達及問題解決的情境練習，享受運動樂趣，促使孩童均衡的發展。
+                                </p>
+
+                                <div class="title-red course-title mb-1 mt-5">適合年齡</div>
+                                <p class="course-description">
+                                    7-12歲
+                                </p>
+
+                                <div class="title-red course-title mb-1 mt-5">上課人數</div>
+                                <p class="course-description m-1">3人開班，最多4位學員
+                                </p>
+
+                                <div class="title-red course-title mb-1 mt-5">課程分組</div>
+                                <p class="course-description m-1">快樂組(7-8歲)、歡樂組(9-12歲)
+                                </p>
+
+                                <div class="title-red course-title mb-1 mt-5">收費標準</div>
+                                <div class="course-list-container">
+                                    <div class="list-container">
+                                        <p class="course-description">1. 體驗課程 單次課程 $ 920元/2hr(1堂)。一期課程 $ 6800/16hr (8堂) 。
+                                        </p>
+                                        <p class="course-description">2. 進階課程 單次課程 $ 870元/2hr(1堂)。一期課程12800/32hr (16堂) 。
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div class="title-red course-title mb-1 mt-5">課程特色</div>
+                                <div class="course-list-container">
+                                    <div class="list-container">
+                                        <p class="course-description">1. 桌球基礎技術、動作、步伐</p>
+                                        <p class="course-description">2. 基本運動能力(敏捷、協調、平衡、速度、反應)</p>
+                                        <p class="course-description">3. 認知 (注意力、工作記憶、抑制控制)、統合感覺</p>
+                                        <p class="course-description">4. 培養運動習慣、人際互動及口語表達</p>
+                                        <p class="course-description">5. 引導模仿及協調控制動作技能</p>
+                                        <p class="course-description">6. 適當增加身體活動量，強化骨骼肌</p>
+                                        <p class="course-description">7. 情緒管理、建立自信、問題解決</p>
+                                        <p class="course-description">8. 課堂學習資料紀錄，並將課堂資料建檔上傳，家長可隨時觀看學習狀況</p>
+                                    </div>
+                                </div>
+
+                                <div class="title-red course-title mb-1 mt-5">備註</div>
+                                <div class="course-list-container">
+                                    <div class="list-container">
+                                        <p class="course-description">1. 本館有提供20公分的墊高基座，方便幼兒墊高站上球檯練習。</p>
                                     </div>
                                 </div>
 
@@ -420,7 +519,7 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col text-center">
-                            <a href="index.html"><img class="footer-logo mx-auto" src="images/TT Logo.jpg" alt=""></a>
+                            <a href="index.html"><img class="footer-logo mx-auto" src="images/TT Logo Mobile sm.jpg" alt=""></a>
                         </div>
                     </div>
                     <div class="row justify-content-center">
@@ -503,9 +602,9 @@
                         <div class="col footer-item footer-social-media">
                             <p class="mb-2">Follow Us!</p>
                             </br>
-                            <i class="fab fa-2x fa-facebook-square mx-2"></i>
-                            <i class="fab fa-2x fa-instagram mx-2"></i>
-                            <i class="fab fa-2x fa-youtube-square mx-2"></i>
+                            <a href=""><i class="fab fa-2x fa-facebook-square mx-2"></i></a>
+                            <a href=""><i class="fab fa-2x fa-instagram mx-2"></i></a>
+                            <!-- <a href=""><i class="fab fa-2x fa-youtube-square mx-2"></i></a> -->
                         </div>
                     </div>
                 </div>

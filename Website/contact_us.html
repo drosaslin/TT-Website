@@ -24,7 +24,7 @@
     <!-- **********************************************************************************************  -->
     <nav class="navbar navbar-custom navbar-expand-lg">
         <a class="navbar-brand" href="index.html">
-            <img src="images/TT Logo Mobile.jpg" alt="">
+            <img src="images/TT Logo Mobile sm.jpg" alt="">
         </a>
         <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -33,10 +33,19 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html">首頁</a>
+                    <a class="nav-link" href="index.html">首頁<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="courses.html">專業課程<span class="sr-only">(current)</span></a>
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCourses" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">專業課程</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownCourses">
+                        <a class="dropdown-item" href="courses.html#individualTab">個人課程</a>
+                        <a class="nav-link dropdown-item dropdown-toggle" href="#" id="navbarDropdownGroup" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">團體課程</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownGroup">
+                            <a class="dropdown-item" href="courses.html#groupATab">團體A</a>
+                            <a class="dropdown-item" href="courses.html#groupBTab">團體B</a>
+                        </div>
+                        <a class="dropdown-item" href="courses.html#groupBTab">學齡前團體課程</a>
+                    </div>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="equipment.html">優質環境</a>
@@ -88,7 +97,7 @@
             <div class="row justify-content-center">
                 <div class="col-10 contact-form">
                     <h3 class="title-red">聯絡我們</h3>
-                    <p class="contact-message">有任何疑問或預約課程歡迎先聯絡我們我們會儘快恢復您</p>
+                    <p class="contact-message">有任何疑問 或預約課程請先留言或來電洽詢, 我們會儘快回覆您</p>
                     <form class="">
                         <div class="form-group">
                             <input type="text" class="form-control" id="inputName" placeholder="您的姓名*" required>
@@ -162,27 +171,27 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col text-center">
-                            <a href="index.html"><img class="footer-logo mx-auto" src="images/TT Logo.jpg" alt=""></a>
+                            <a href="index.html"><img class="footer-logo mx-auto" src="images/TT Logo Mobile sm.jpg" alt=""></a>
                         </div>
                     </div>
                     <div class="row justify-content-center">
                         <div class="col footer-link">
-                            <a href="index.html">Home</a>
+                            <a href="index.html">首頁</a>
                         </div>
                         <div class="col footer-link">
-                            <a href="courses.html">Courses</a>
+                            <a href="courses.html">專業課程</a>
                         </div>
                         <div class="col footer-link">
-                            <a href="equipment.html">Equipment</a>
+                            <a href="equipment.html">環境</a>
                         </div>
                         <div class="col footer-link">
-                            <a href="gallery.html">Gallery</a>
+                            <a href="gallery.html">活動分享</a>
                         </div>
                         <div class="col footer-link">
-                            <a href="out_team.html">Our Team</a>
+                            <a href="">師資介紹</a>
                         </div>
                         <div class="col footer-link">
-                            <a href="contact_us.html">Contact us</a>
+                            <a href="contact_us.html">聯絡我們</a>
                         </div>
                     </div>
                 </div>
@@ -245,9 +254,9 @@
                         <div class="col footer-item footer-social-media">
                             <p class="mb-2">Follow Us!</p>
                             </br>
-                            <i class="fab fa-2x fa-facebook-square mx-2"></i>
-                            <i class="fab fa-2x fa-instagram mx-2"></i>
-                            <i class="fab fa-2x fa-youtube-square mx-2"></i>
+                            <a href=""><i class="fab fa-2x fa-facebook-square mx-2"></i></a>
+                            <a href=""><i class="fab fa-2x fa-instagram mx-2"></i></a>
+                            <!-- <a href=""><i class="fab fa-2x fa-youtube-square mx-2"></i></a> -->
                         </div>
                     </div>
                 </div>

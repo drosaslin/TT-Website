@@ -26,7 +26,7 @@
     <!-- **********************************************************************************************  -->
     <nav class="navbar navbar-custom navbar-expand-lg">
         <a class="navbar-brand" href="index.html">
-            <img src="images/TT Logo Mobile.jpg" alt="">
+            <img src="images/TT Logo Mobile sm.jpg" alt="">
         </a>
         <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -35,48 +35,58 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="index.html">首頁</a>
+                    <a class="nav-link" href="index.html">首頁<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="courses.html">專業課程</a>
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownCourses" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">專業課程</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownCourses">
+                        <a class="dropdown-item" href="courses.html#individualTab">個人課程</a>
+                        <a class="nav-link dropdown-item dropdown-toggle" href="#" id="navbarDropdownGroup" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">團體課程</a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownGroup">
+                            <a class="dropdown-item" href="courses.html#groupATab">團體A</a>
+                            <a class="dropdown-item" href="courses.html#groupBTab">團體B</a>
+                        </div>
+                        <a class="dropdown-item" href="courses.html#groupBTab">學齡前團體課程</a>
+                    </div>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="equipment.html">優質環境</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="gallery.html">活動分享<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="gallery.html">活動分享</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         師資介紹
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="our_team.html#tableTennisTeam">桌球教練團隊</a>
-                    <a class="dropdown-item" href="our_team.html#sportPhsycologyTeam">運動心理諮詢團隊</a>
-        </div>
-        </li>
-        <li class="nav-item nav-contact">
-            <a class="nav-link" href="contact_us.html">聯絡我們</a>
-        </li>
-        <li class="nav-item nav-contact d-lg-none">
-            <div class="nav-line"></div>
-        </li>
-        <li class="nav-item nav-contact d-lg-none">
-            <p>+886 987456321</p>
-        </li>
-        <li class="nav-item nav-contact d-lg-none">
-            <p>tabletennis@tabletennis.com</p>
-        </li>
-        <li class="nav-item nav-contact d-lg-none">
-            <p>Line ID: lineid123</p>
-        </li>
-        <li class="nav-item nav-contact d-lg-none">
-            <div>
-                <i class="fab fa-2x fa-facebook-square mr-1"></i>
-                <i class="fab fa-2x fa-instagram mr-1"></i>
-                <i class="fab fa-2x fa-youtube-square mr-1"></i>
-            </div>
-        </li>
-        </ul>
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="our_team.html#tableTennisTeam">桌球教練團隊</a>
+                        <a class="dropdown-item" href="our_team.html#sportPhsycologyTeam">運動心理諮詢團隊</a>
+                    </div>
+                </li>
+                <li class="nav-item nav-contact">
+                    <a class="nav-link" href="contact_us.html">聯絡我們</a>
+                </li>
+                <li class="nav-item nav-contact d-lg-none">
+                    <div class="nav-line"></div>
+                </li>
+                <li class="nav-item nav-contact d-lg-none">
+                    <p>+886 987456321</p>
+                </li>
+                <li class="nav-item nav-contact d-lg-none">
+                    <p>tabletennis@tabletennis.com</p>
+                </li>
+                <li class="nav-item nav-contact d-lg-none">
+                    <p>Line ID: lineid123</p>
+                </li>
+                <li class="nav-item nav-contact d-lg-none">
+                    <div>
+                        <i class="fab fa-2x fa-facebook-square mr-1"></i>
+                        <i class="fab fa-2x fa-instagram mr-1"></i>
+                        <i class="fab fa-2x fa-youtube-square mr-1"></i>
+                    </div>
+                </li>
+            </ul>
         </div>
     </nav>
 
@@ -230,7 +240,7 @@
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col text-center">
-                            <a href="index.html"><img class="footer-logo mx-auto" src="images/TT Logo.jpg" alt=""></a>
+                            <a href="index.html"><img class="footer-logo mx-auto" src="images/TT Logo Mobile sm.jpg" alt=""></a>
                         </div>
                     </div>
                     <div class="row justify-content-center">
@@ -313,9 +323,9 @@
                         <div class="col footer-item footer-social-media">
                             <p class="mb-2">Follow Us!</p>
                             </br>
-                            <i class="fab fa-2x fa-facebook-square mx-2"></i>
-                            <i class="fab fa-2x fa-instagram mx-2"></i>
-                            <i class="fab fa-2x fa-youtube-square mx-2"></i>
+                            <a href=""><i class="fab fa-2x fa-facebook-square mx-2"></i></a>
+                            <a href=""><i class="fab fa-2x fa-instagram mx-2"></i></a>
+                            <!-- <a href=""><i class="fab fa-2x fa-youtube-square mx-2"></i></a> -->
                         </div>
                     </div>
                 </div>
