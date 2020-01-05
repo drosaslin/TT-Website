@@ -60,10 +60,13 @@ hr {
 }
 
 .content-equipment {
+    display: flex;
+    align-items: center;
     text-align: center;
 }
 
 .content-equipment p {
+    font-size: 20px;
     font-family: 'Roboto', sans-serif;
 }
 
