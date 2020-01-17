@@ -28,6 +28,7 @@ hr {
 }
 
 .nav-link {
+    font-size: 20px;
     color: rgba(249, 4, 5, 1);
 }
 
@@ -77,13 +78,13 @@ hr {
 
 .course-title {
     color: #562526;
-    font-size: 20px;
+    font-size: 26px;
     font-weight: bold;
 }
 
 .course-description {
     font-family: 'Hepta Slab', serif;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .course-list-container {
