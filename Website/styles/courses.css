@@ -87,8 +87,13 @@ hr {
 }
 
 .course-description {
+    justify-content: left;
     font-family: 'Hepta Slab', serif;
     font-size: 22px;
+}
+
+.course-introduction {
+    text-align: left;
 }
 
 .course-list-container {

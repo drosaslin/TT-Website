@@ -1,4 +1,4 @@
-$('#buttonSend').submit(function (e) {
+$('#buttonSend').submit(function(e) {
     var nameInput = $('#inputName');
     var emailInput = $('#inputEmail');
     var messageInput = $('#inputMessage');
