@@ -28,6 +28,10 @@ hr {
     color: rgba(249, 4, 5, 1);
 }
 
+.navbar-link {
+    font-size: 25px;
+}
+
 .nav-line {
     height: 1px;
     background-color: rgba(249, 4, 5, 1);
